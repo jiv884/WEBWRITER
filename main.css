@@ -1,0 +1,17 @@
+*, ::before, ::after {box-sizing: border-box;}
+body {
+    background-color: rgb(255, 145, 2);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#sentence {
+    color: rgb(0, 0, 0);
+    font-size: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
